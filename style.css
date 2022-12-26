@@ -1,0 +1,38 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.main-card{
+    height: 500px;
+    width: 290px;
+    background-color: white;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 80px;
+}
+
+.image {
+    height: 265px;
+    border-radius: 10px;
+    margin: 12px 0px 0px 12px;
+}
+
+.heading{
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    color: hsl(218, 44%, 22%);
+}
+
+.paragraph{
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+    color: hsl(220, 15%, 55%);
+}
