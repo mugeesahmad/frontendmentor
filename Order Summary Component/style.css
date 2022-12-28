@@ -43,6 +43,9 @@ body{
     /* display:inline; */
     border-radius: 10px;
     margin:20px;
+    box-sizing: border-box;
+    height:100px;
+    width:360px;
 }
 
 .image-music{
@@ -81,9 +84,11 @@ body{
 
 .payment{
     text-decoration: none;
-    padding:12px 0px;
+    /* padding:12px 0px; */
     width: 360px;
-    height:20px;
+    height:40px;
+    padding-top:12px;
+    box-sizing: border-box;
     display: block;
     color:white;
     background-color: hsl(245, 75%, 52%);
@@ -104,4 +109,13 @@ body{
     display: block;
     width: 360px;
     margin:20px;
+}
+
+@media(max-width:375px){
+    .container, .image-hero{
+        width: 350px;
+    }
+    #pricing-container, .payment, .cancel {
+        width:300px;
+    }
 }
