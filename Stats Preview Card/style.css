@@ -1,0 +1,46 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: hsl(233, 47%, 7%);
+    color:white;
+}
+/* Global */
+
+.main-paragraph-white{
+    color:hsla(0, 0%, 100%, 0.75);
+}
+
+.stat-heading-white{
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+/* Elements */
+.container{
+    margin: auto;
+    margin-top: 15vh;
+    box-sizing: border-box;
+    width: 1000px;
+    height:400px;
+    background-color: hsl(244, 38%, 16%);
+    border-radius:10px;
+}
+
+.text-part{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 500px;
+    
+}
+
+.image {
+    float:right;
+    height:400px;
+    width:500px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
