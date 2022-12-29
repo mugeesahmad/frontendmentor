@@ -44,3 +44,39 @@ body{
     border-bottom-right-radius: 10px;
 
 }
+
+.heading{
+    font-family:'Inter', sans-serif;
+    font-weight:700;
+    font-size:30px;
+    margin: 50px 0px 20px 50px;
+}
+
+.paragraph{
+    font-family:'Inter', sans-serif;
+    font-weight:400;
+    font-size:15px;
+    margin-right:80px;
+    margin-left:50px;
+}
+
+.links-block{
+    margin-top:90px;
+    margin-left:50px;
+}
+.link-box{
+    display:inline-block;
+}
+
+.box-head{
+    font-family:'Inter', sans-serif;
+    font-weight:bold;
+    font-size:25px;
+    display:block;
+}
+.box-child{
+    text-transform: uppercase;
+    font-family:'Lexend Deca', sans-serif;
+    font-size:15px;
+
+}
