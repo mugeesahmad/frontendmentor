@@ -16,7 +16,7 @@ body{
 
 /* Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Lexend+Deca&display=swap');
 
 /* Elements */
 .container{
@@ -47,9 +47,14 @@ body{
 
 .heading{
     font-family:'Inter', sans-serif;
-    font-weight:700;
+    font-weight:600;
     font-size:30px;
-    margin: 50px 0px 20px 50px;
+    margin: 50px 0px 40px 50px;
+}
+
+.soft-violet{
+    color: hsl(277, 64%, 61%);
+    display:inline;
 }
 
 .paragraph{
@@ -70,7 +75,7 @@ body{
 
 .box-head{
     font-family:'Inter', sans-serif;
-    font-weight:bold;
+    font-weight:600;
     font-size:25px;
     display:block;
 }
