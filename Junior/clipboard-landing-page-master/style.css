@@ -219,7 +219,7 @@ body{
 }
 
 footer {
-    height: 18vh;
+    min-height: 18vh;
     background-color: hsla(180, 1%, 34%, 0.123);
 }
 
@@ -264,4 +264,123 @@ footer img {
 .img-social{
     height: 3vh;
     margin-left: 3vh;
+}
+
+@media(max-width:375px){
+    .main-logo{
+        height:110px;
+        margin-left:-55px;
+        top:18vh;
+    }
+    .center{
+        width:90%;
+        left:50%;
+        margin-left:-45%;
+    }
+    .main-heading, .sixth-heading{
+        font-size: 30px;
+    }
+    .paragraph{
+        width:90% !important;
+        margin-top: 20px;
+    }
+    .buttons{
+        width:90vw;
+        margin-left:-45vw;
+    }
+    .b-ios,.b-mac{
+        display:block;
+        text-align: center;
+        font-weight:bold;
+        margin: 10px 0px;
+        padding: 12px;
+    }
+    #p2{
+        width:80vw;
+    }
+    #img-c3, .text-part-c3{
+        float:none;
+        width: 90vw;
+        margin:0 5vw;
+    }
+    .text-part-c3{
+        text-align: center;
+    }
+    .th-c3{
+        font-size: 22px;
+    }
+    .tp-c3{
+        font-size:16px;
+        margin-bottom: 5vh;
+    }
+    .forth-container{
+        margin-top:7vh;
+    }
+    #img-devices{
+        width:95vw;
+    }
+    .fifth-container, .sixth-container{
+        margin-top:5vh;
+    }
+    .services{
+        width:90vw;
+    }
+    .service-box{
+        display: block;
+        width:90vw;
+    }
+    .heading-sb{
+        font-size:25px;
+    }
+    .p-sb{
+        font-size:16px;
+        margin-bottom:5vh;
+    }
+    .companies{
+        width:90vw;
+        margin-top:40vh;
+    }
+    .img-com{
+        display: block;
+        width:40vw;
+        margin: 10vh auto;
+    }
+    .sixth-heading{
+        width: 90vw;
+        margin:auto;
+    }
+    footer{
+        min-height:10vh;
+    }
+    footer img{
+        display:block;
+        margin: auto;
+        padding: 5vh;
+    }
+    .links{
+        display: block;
+        margin: auto;
+    }
+    .divider{
+        display:block;
+        margin:auto;
+        height:10vh;
+    }
+    .link{
+        display: block;
+        text-align: center;
+        box-sizing: border-box;
+        height:5vh;
+    }
+    .socials{
+        width: 90vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .img-social{
+        height: 30px;
+        margin: 15px;
+        padding:0px;
+    }
 }
