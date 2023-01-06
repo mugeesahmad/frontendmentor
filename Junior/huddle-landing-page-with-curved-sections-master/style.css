@@ -63,17 +63,17 @@ header{
     color: var(--dark-cyan)
 }
 
-header .heading{
+header .container .heading{
     font-weight: 700;
     margin-bottom: 30px;
     font-size:40px;
 }
-header p{
+header .container p{
     width:45vw;
     margin: 0 auto;
 }
 
-header .button{
+header .container .button{
     display: inline-block;
     margin-top: 50px;
     font-weight: 600;
@@ -94,7 +94,7 @@ header .button{
     display: flex;
     justify-content: space-around;
 }
-
+s
 .statistics h1{
     font-size: 70px;
     font-family: 'Poppins', sans-serif;
@@ -265,4 +265,92 @@ footer .dark{
     align-items: center;
     border-radius: 8px;
     
+}
+
+
+/* Media Queries */
+
+@media(max-width:375px){
+       .navbar{
+        margin: 10px 20px;
+       }
+       
+       .navbar .logo img{
+        height: 20px;
+       }
+       .navbar .button {
+        font-size: 14px;
+        padding:6px 22px;
+       }
+
+       /* 
+       .container{
+        width: 90vw;
+       } */
+
+       header .container .heading{
+        font-size: 25px;
+       }
+
+       header .container p{
+        width: 100%;
+       }
+
+       header .container .button {
+        padding: 15px 40px;
+        font-size: 0.9rem;
+       }
+       .statistics{
+        flex-direction: column;
+       }
+
+       .statistics .box{
+        width: 55%;
+        margin:auto;
+        margin-bottom: 30px;
+       }
+
+       .icon-statistics{
+        height: 30px;
+       }
+
+       .box h1{
+        font-size: 60px;
+       }
+
+       .grow{
+        flex-direction: column-reverse;
+       }
+
+       .img-grow{
+        width: 100%;
+       }
+
+       .grow .textual, .flow .textual-flow{
+        width: 100%;
+       }
+
+       .grow .textual h1, .textual-flow h1{
+        font-size: 20px;
+        text-align:center;
+        display: block;
+        margin-top: 100px;
+       }
+
+       .grow .textual p{
+        width: 100%;
+        text-align:center;
+       }
+
+       .flow{
+        flex-direction: column;
+       }
+
+       .img-flow{
+        width:100%;
+       }
+       .textual-flow h1{
+        justify-self: center;
+       }
+
 }
