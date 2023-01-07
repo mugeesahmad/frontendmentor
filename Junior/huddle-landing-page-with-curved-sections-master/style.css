@@ -193,7 +193,8 @@ footer img{
 }
 
 footer .dark{
-    padding-top: 80px;
+    padding: 80px 0px;
+
     background-color: var(--dark-cyan);
     min-height: 300px;
 }
@@ -270,7 +271,7 @@ footer .dark{
 
 /* Media Queries */
 
-@media(max-width:375px){
+@media(max-width:412px){
        .navbar{
         margin: 10px 20px;
        }
@@ -349,8 +350,41 @@ footer .dark{
        .img-flow{
         width:100%;
        }
-       .textual-flow h1{
-        justify-self: center;
+       .flow .textual-flow h1, .flow .textual-flow p{
+        text-align:center;
+        width: 100%;
        }
+
+       .container .question {
+        font-size: 25px;
+       }
+
+       .container .button {
+        padding: 15px 40px;
+        font-size: 0.9rem;
+        }
+
+        footer .dark .flex-information{
+            flex-direction: column-reverse;
+        }
+        .flex-information .newsletter{
+            width: 100%;
+        }
+        .newsletter input{
+            width: 100%;
+        }
+
+        .newsletter .submit{
+            margin-top: 10px;
+            float:right;
+        }
+
+        footer .dark .flex-information .information{
+            margin-top: 100px;
+        }
+
+        footer .dark .flex-information .information ,footer .dark .flex-information .information p{
+            width: 100%;
+        }
 
 }
