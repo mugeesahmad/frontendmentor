@@ -6,6 +6,7 @@
   <script src="https://kit.fontawesome.com/f3449f2899.js" crossorigin="anonymous"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
 </head>
@@ -40,32 +41,32 @@
       </div>
     </div>
   </div>
-  <div class="container grow">
+  <div class="container grow" data-aos="fade-left">
     <div class="textual">
       <h1>Grow Together</h1>
       <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
     </div>
     <img src="images/illustration-grow-together.svg" class="img-grow">
   </div>
-  <div class="container flow">
+  <div class="container flow" data-aos="fade-right">
     <img src="images/illustration-flowing-conversation.svg" class="img-flow">
     <div class="textual-flow">
       <h1>Flowing Conversations</h1>
       <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
     </div>
   </div>
-  <div class="container grow">
+  <div class="container grow" data-aos="fade-left">
     <div class="textual">
       <h1>Your Users</h1>
       <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
     </div>
     <img src="images/illustration-your-users.svg" class="img-grow">
   </div>
-  <div class="container" style="display:flex; flex-direction:column ;justify-content:center;">
+  <div class="container" style="display:flex; flex-direction:column ;justify-content:center;" data-aos="fade-right">
     <h1 class="question">Ready To Build Your Community?</h1>
     <div class="button">Get Started For Free</div>
   </div>
-  <footer>
+  <footer data-aos="fade-up">
     <img src="images/bg-footer-top-desktop.svg" alt="">
     <div class="dark">
       <div class="container flex-information">
@@ -93,5 +94,12 @@
       </div>
     </div>
   </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 300,
+      duration: 1000, 
+    });
+  </script>
 </body>
 </html>
