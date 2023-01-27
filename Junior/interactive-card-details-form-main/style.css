@@ -70,6 +70,10 @@ body{
     font-weight: 400;
 }
 
+.cardName{
+    text-transform: capitalize;
+}
+
 .cardNumber{
     font-size: 28px;
     }
@@ -127,6 +131,7 @@ body{
     padding: 8px 15px;
     margin-bottom: 5px;
     width: 100%;
+    text-transform: capitalize;
 }
 
 .form input:focus{
@@ -184,12 +189,6 @@ body{
     cursor: pointer;
     /* transition: all 300ms;     */
 }
-
-/* .buttonForm:hover, .buttonContinue:hover{
-    border: 3px solid var(--very-dark-grey-violet);
-    background-color: white;
-    color:hsl(278, 68%, 11%);
-} */
 
 .completed{
     display: none;
