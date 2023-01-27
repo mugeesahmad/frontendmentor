@@ -187,7 +187,7 @@ function yearFunction(){
         year.innerText = '00';
         errorYear.style.display = 'none';
         return false;
-    } else if (Number(inputYear.value) <= 12){
+    } else if (Number(inputYear.value) <= 99){
         inputYear.style.borderColor = 'var(--very-dark-grey-violet)';
         if(Number(inputYear.value) < 10){
             year.innerText = '0'+ Number(inputYear.value);
